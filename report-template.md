@@ -40,11 +40,11 @@
 
 | № | scheme | userinfo | host | port | path | query | fragment |
 |---|---|---|---|---|---|---|---|
-| 1 | http | — | www.se-201-31.lab | 80 (за замовч.) | /search/orders | limit=22&lang=uk | top |
-| 2 | http | — | shop.se-201-31.lab | 80 | /orders/ | limit=%D0%BA%D0%B8%D1%97%D0%B2 | — |
-| 3 | http | user:pass | canary.se-201-31.lab | 80 (за замовч.) | /search | — | comments |
-| 4 | https | — | www.se-201-31.lab | 9443 | /search/../orders | — | — |
-| 5 | mailto | — | — | — | admin@se-201-31.lab | subject=search | — |
+| 1 | http | - | www.se-201-31.lab | 80 (за замовч.) | /search/orders | limit=22&lang=uk | top |
+| 2 | http | - | shop.se-201-31.lab | 80 | /orders/ | limit=%D0%BA%D0%B8%D1%97%D0%B2 | - |
+| 3 | http | user:pass | canary.se-201-31.lab | 80 (за замовч.) | /search | - | comments |
+| 4 | https | - | www.se-201-31.lab | 9443 | /search/../orders | - | - |
+| 5 | mailto | - | - | - | admin@se-201-31.lab | subject=search | - |
 
 | № | Ім'я, що запитується в DNS | Заголовок `Host` | Ціль запиту (request target) |
 |---|---|---|---|
@@ -52,7 +52,7 @@
 | 2 | shop.se-201-31.lab | shop.se-201-31.lab | /orders/?limit=%D0%BA%D0%B8%D1%97%D0%B2 |
 | 3 | canary.se-201-31.lab | canary.se-201-31.lab | /search |
 | 4 | www.se-201-31.lab | www.se-201-31.lab:9443 | /search/../orders |
-| 5 | se-201-31.lab | — | — |
+| 5 | - | - | - |
 
 Декодоване значення параметра URI 2: limit=київ
 
